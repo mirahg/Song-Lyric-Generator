@@ -130,3 +130,5 @@ dmypy.json
 
 checkpoints
 *.csv
+
+!lyric_prompts.csv
