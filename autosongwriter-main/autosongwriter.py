@@ -2,6 +2,7 @@ from __future__ import print_function
 import io
 import os
 import sys
+import csv
 import string
 import numpy as np
 import pandas as pd
@@ -58,7 +59,7 @@ sum_df.dropna(inplace=True)
 text_as_list = []
 frequencies = {}
 uncommon_words = set()
-MIN_FREQUENCY = 7
+MIN_FREQUENCY = 5
 MIN_SEQ = 5
 BATCH_SIZE =  32
 
@@ -134,24 +135,26 @@ def sample(preds, temperature=1.0):
 def on_epoch_end(epoch, logs):
     # Function invoked at end of each epoch. Prints generated text.
     examples_file.write('\n----- Generating text after Epoch: %d\n' % epoch)
-
+    sentences = []
     # Randomly pick a seed sequence
-    seed_index = np.random.randint(len(X_train+X_test))
-    seed = (X_train+X_test)[seed_index]
+    with open("./lyric_prompts.csv") as file:
+        reader = csv.reader(file)
+        for row in reader:
+            sentences.append(row[0].lower().replace(',',''))
+    
 
-    for diversity in [0.3, 0.4, 0.5, 0.6, 0.7]:
-        sentence = seed
-        examples_file.write('----- Diversity:' + str(diversity) + '\n')
+    for sentence in sentences[1:]:
+        sentence = sentence.split()
         examples_file.write('----- Generating with seed:\n"' + ' '.join(sentence) + '"\n')
         examples_file.write(' '.join(sentence))
 
-        for i in range(50):
-            x_pred = np.zeros((1, MIN_SEQ))
+        for _ in range(50):
+            x_pred = np.zeros((1, len(sentence)))
             for t, word in enumerate(sentence):
                 x_pred[0, t] = word_indices[word]
 
             preds = model.predict(x_pred, verbose=0)[0]
-            next_index = sample(preds, diversity)
+            next_index = sample(preds, 0.5)
             next_word = indices_word[next_index]
 
             sentence = sentence[1:]
@@ -162,6 +165,8 @@ def on_epoch_end(epoch, logs):
     examples_file.write('='*80 + '\n')
     examples_file.flush()
 
+
+
 model = get_model()
 model.compile(loss='sparse_categorical_crossentropy', optimizer="adam", metrics=['accuracy'])
 
@@ -169,15 +174,15 @@ file_path = "./checkpoints/LSTM_LYRICS-epoch{epoch:03d}-words%d-sequence%d-minfr
             "loss{loss:.4f}-acc{accuracy:.4f}-val_loss{val_loss:.4f}-val_acc{val_accuracy:.4f}" % \
             (len(words), MIN_SEQ, MIN_FREQUENCY)
 
-checkpoint = ModelCheckpoint(file_path, monitor='val_accuracy', save_best_only=True)
+#checkpoint = ModelCheckpoint(file_path, monitor='val_accuracy', save_best_only=True)
 print_callback = LambdaCallback(on_epoch_end=on_epoch_end)
 early_stopping = EarlyStopping(monitor='val_accuracy', patience=20)
-callbacks_list = [checkpoint, print_callback, early_stopping]
+callbacks_list = [print_callback, early_stopping]
 
 examples_file = open('examples.txt', "w")
 model.fit(generator(X_train, y_train, BATCH_SIZE),
                     steps_per_epoch=int(len(valid_seqs)/BATCH_SIZE) + 1,
-                    epochs=3,
+                    epochs=2,
                     callbacks=callbacks_list,
                     validation_data=generator(X_test, y_train, BATCH_SIZE),
                     validation_steps=int(len(y_train)/BATCH_SIZE) + 1)

@@ -1,239 +1,74 @@
 
 ----- Generating text after Epoch: 0
------ Diversity:0.3
 ----- Generating with seed:
-"from substance to spirit 
-"
-from substance to spirit 
- and i was a little 
- i was the only thing 
- i dont know how much i dont even know 
- i dont know that i was 
- and i was the guy 
- i was just a little more than a little less 
- i dont think about
------ Diversity:0.4
+"you pray for my demons girl i got you"
+you pray for my demons girl i got you 
+ my daddy got a plate 
+ got a bitch bitch got a lot of opp 
+ and i got a hundred dollars on the gram yeah i get the bitch 
+ i get on the boss get the bitch get a moolah get that moolah get low 
+ get
 ----- Generating with seed:
-"from substance to spirit 
-"
-from substance to spirit 
+"you change your mind"
+you change your mind 
+ and i told a little more 
+ you know that i know i was born 
+ the moon of the world 
+ when im not not to be 
  
+ the same 
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- the room 
- 
- in the dark 
- 
- 
- 
- 
- 
- and the day and the little 
- you dont know what
------ Diversity:0.5
+ i would not be a little more 
+ a little more 
+ im a little
 ----- Generating with seed:
-"from substance to spirit 
-"
-from substance to spirit 
- you think its not alright 
- i was just a man 
- and i was born to the way 
+"now i can see that we have fallen apart"
+now i can see that we have fallen apart 
+ oh they say that we can get low 
+ i aint got a bitch 
+ got a bitch got a bitch who got a lot of a girl 
  
- 
- 
- 
- 
- 
- and what does you have 
- 
- i am the best not to the way you 
- youre ever gonna blame me 
- your
------ Diversity:0.6
+ i got a lot of love 
+ i got got a little bit 
+ got a bad bitch so
 ----- Generating with seed:
-"from substance to spirit 
-"
-from substance to spirit 
- and i dont even know somethin 
- if it aint no trust no bodies 
- you dont need to run to call 
- to hold the way you go 
- and all night i think about it 
- she got no you got me spending 
- all it up so
------ Diversity:0.7
------ Generating with seed:
-"from substance to spirit 
-"
-from substance to spirit 
- when some people call us in traffic 
- when the wind have been 
+"and now the end is near"
+and now the end is near the room 
+ all the night 
  
- the world have been washed 
- im not like shes ready to gun you 
+ the world has a mess of the night 
  
- the first boy i was ever so long 
  
- you aint no clue no matter 
- no love
-================================================================================
-
------ Generating text after Epoch: 1
------ Diversity:0.3
------ Generating with seed:
-"hoes no 
- dont compare"
-hoes no 
- dont compare me to my friend 
- but i dont wanna be a damn game 
- and i just want to be 
- if you were the last night 
  
- the one i got to hold up 
- i dont want nobody else but you 
- i dont care if you
------ Diversity:0.4
------ Generating with seed:
-"hoes no 
- dont compare"
-hoes no 
- dont compare me to myself 
- you know that im not the one who 
- and the smallest time i need the way 
- i dont wanna feel liberated i dont wanna be 
- i dont wanna be a rollie rollie 
- yeah i get a little more 
- and the little
------ Diversity:0.5
------ Generating with seed:
-"hoes no 
- dont compare"
-hoes no 
- dont compare me to myself 
  
- my mother was a lie 
  
- i know i cant stop 
- i got throwing up and i got plenty 
- i got new rules i count em 
- i just want to run 
- and the swell of steel 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  
 
------ Diversity:0.6
------ Generating with seed:
-"hoes no 
- dont compare"
-hoes no 
- dont compare me to myself 
- you know that i would 
- have ever had you now 
- i like you like you 
- and if you dont like you 
- i dont understand how to do it 
- to the same river 
- 
- it is the clear yet good 
-
------ Diversity:0.7
------ Generating with seed:
-"hoes no 
- dont compare"
-hoes no 
- dont compare me to myself 
- i like my heart really crooked 
- the truth is the first time yeah 
- its a fool to your head 
- cause im gonna bitches this be this whole moments 
- and thats so i cant find a little thing in the way 
- but
-================================================================================
-
------ Generating text after Epoch: 2
------ Diversity:0.3
------ Generating with seed:
-"carry one 
- at a"
-carry one 
- at a million dreams for the world 
- and i know that you aint no stoppin you no no 
- no no no no 
- im not sober anymore and im not sober anymore 
- i know somebody 
- i know somebody else 
- i know somebody else will you 
- somebody
------ Diversity:0.4
------ Generating with seed:
-"carry one 
- at a"
-carry one 
- at a million dreams i was a little e i was a little bit of life 
- 
- a man and the man 
- i got the way i got that i got that i got that 
- im the one you should see me 
- so i see the best thing
------ Diversity:0.5
------ Generating with seed:
-"carry one 
- at a"
-carry one 
- at a million dreams at a time change being 
- just a way to hide 
- you can get a little thing 
- this is a little unsteady a little unsteady a player 
- 
- its a rapper nigga that i aint no stoppin you no no 
- my name is no
------ Diversity:0.6
------ Generating with seed:
-"carry one 
- at a"
-carry one 
- at a million dreams thats not a prayer 
- how a long time ago 
- i was born and i had so long 
- i know youre not around 
- i know you wanna be your name 
- id be a man or 
- the people who who i fail 
- how
------ Diversity:0.7
------ Generating with seed:
-"carry one 
- at a"
-carry one 
- at a time when you run from the house in the dark 
- 
- of the surface of the earth 
- and i know they dont even care about the truth 
- just wanna feel liberated i i i like 
- this is a world im not a metal 
- for the
 ================================================================================
