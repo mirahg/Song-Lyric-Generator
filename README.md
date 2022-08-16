@@ -5,7 +5,7 @@
 
 Final project utilizing Python libraries (NLTK, Pandas, Numpy, Matplotlib and Seaborn, Sci-kit Learn, Tensorflow, and Keras) and a Recurrent Neural Network (RNN) to employ a song lyric generator.
 
-This project attempted to create an NLP powered piece of art, specifically song lyrics. It comapred outputs from an online text generator, [InferKit](https://app.inferkit.com/demo), and our own neural network. 
+This project attempted to create an NLP powered piece of art, specifically new song verses. It comapred outputs from an online text generator, [InferKit](https://app.inferkit.com/demo), and our own neural network. 
 
 The song data was sourced from [MusicOSet](https://marianaossilva.github.io/DSW2019/index.html#downloads), which provided an enhanced data set and included pre-processed and labeled song lyric features.
 
