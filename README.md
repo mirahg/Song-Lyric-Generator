@@ -3,19 +3,21 @@
 
 ### Mirah Gordon, Albert Zhang, Henry Stachowiak
 
-Final project utilizing MongoDB and Neo4j to create a book recommendation system.
+Final project utilizing Python libraries (NLTK, Pandas, Numpy, Matplotlib and Seaborn, Sci-kit Learn, Tensorflow, and Keras) and a Recurrent Neural Network (RNN) to employ a song lyric generator.
 
-Data sourced from UCSD's Goodreads dataset (https://sites.google.com/eng.ucsd.edu/ucsdbookgraph/home).
+This project attempted to create an NLP powered piece of art, specifically song lyrics. It comapred outputs from an online text generator, InferKit [https://app.inferkit.com/demo] and our own neural network. 
 
-Two jupyter notebooks contain all the necessary code for this project:
+The song data was sourced from MusicOSet [https://marianaossilva.github.io/DSW2019/index.html#downloads], which provided an enhanced data set and included pre-processed and labeled song lyric features.
+
+One jupyter notebooks contain all the necessary code for this project:
 
 * Books_Mongo has code for loading in data with MongoDB and cleaning data into an exportable form for Neo4j.
 
-* User_Books has code for a front-end user interface where a user is asked to input four books (title and author) and book recommendations are produced via a connection to MongoDB and Neo4j.
+Other documents included in this repository are the the necessary text and csv files for running the notebook and the final project report that was submitted.
 
-Other documents included in this repository are the output csv's from data cleaning and the final project report that was submitted.
-
-Link to our presentation is below:
+Links to our presentation and video recording are below:
 
 [Presentation](https://docs.google.com/document/d/1dk58poaHWi-7UDyGZ6th4vFFOVoL4VpBD_MTB9J-qos/edit?usp=sharing)
+
+[Video Recording](https://drive.google.com/file/d/1hK3uF45a6vHUqr_zPXcVE8ucW9j6Ictu/view?usp=sharing)
 
